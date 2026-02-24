@@ -883,3 +883,21 @@ body.teacher-mode .confetti{
 body.big-font .sentence-chars{ font-size: 34px; }
 body.big-font .typing-input-wrap input{ font-size: 22px; }
 body.big-font .byte-bubble{ font-size: 16px; }
+.gaveta-footer {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.6;
+  z-index: 9999;
+}
+
+.gaveta-footer a {
+  text-decoration: none;
+  color: #2c5f8a;
+}
+
+.gaveta-footer a:hover {
+  opacity: 1;
+}
